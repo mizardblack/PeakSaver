@@ -2,6 +2,7 @@
 
 This project is created winthin 3 day for NYU Skunkworks Hackathon 2023.
 Visit the web app via [glitch](https://peak-saver.glitch.me).
+Watch the project presentation on [Loom](https://www.loom.com/share/aa5dedb4e82f4cf3998de484807c4167).
 
 ### Team Member
 
