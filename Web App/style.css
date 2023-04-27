@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background: linear-gradient(to bottom right, #E8D0D4, #D4EDF7);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0d122b;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+header {
+  margin: 2em;
+  text-align:center;
+}
+main {
+  margin: 10px;
+}
+button.speaking {
+  animation: bg-pulse 1.5s alternate ease-in-out infinite;
+}
+@keyframes bg-pulse {
+  0% {
+    background-color: #E8D0D4;
+  }
+
+  50% {
+    background-color: #D4EDF7;
+  }
+
+  100% {
+    background-color: #E8D0D4;
+  }
+}
+
+#result {
+  color: #666666;
+  font-style: italic;
+  text-align: center;
+/*   height: 30px; */
+  position:absolute;
+  margin: 2vw;
+  top: 18vh;
+  width: 80vw;
+  overflow: auto;
+}
+#result .final {
+/*   color: #0d122b; */
+/*   font-style: normal; */
+}
+#response {
+  padding: 10px 20px;
+  background-color: rgba(255,255,255,0.3);
+  color: black;
+  border-radius:15px;
+  border-color: transparent;
+  position:absolute;
+  margin: 20px;
+  bottom: 2vh;
+  left:0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height:26px;
+  text-align: left;
+  font-style: bold;
+  max-height: 20vh;
+  overflow: scroll;
+}
+
+#button {
+  width: 70vw;
+  height: 70vw;
+  font-size: 18px;
+  font-weight: 200;
+  position:absolute;
+  top: 25vh;
+  left: 15vw;
+  background: transparent;
+  border-width:10px;
+  border-color: #ffffff;
+  color: #DC2C49;
+  font-size:30px;
+}
+
+a {
+  color: #0d122b;
+}
+.error {
+  color: #f22f46;
+  text-align: center;
+}
+footer {
+  border-top: 1px solid #0d122b;
+  text-align: center;
+}
+.content {
+  text-align: center;
+}
+.number {
+  text-align: center;
+  font-weight: 500;
+  font-size: 90px;
+}
+.title {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 2vh;
+}
+.instruction {
+  font-weight:10;
+  line-height: 1.4em;
+}
+p.screen_reader_instruction{
+  height:1px;
+  overflow:hidden;
+}
